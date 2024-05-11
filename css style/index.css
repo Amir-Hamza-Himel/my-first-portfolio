@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul { 
+    display: flex;
+    align-items: center;
+    margin-right:150px;
+    list-style-type: none;
+
+}
+ul > li {
+margin-left: 50px;
+
+
+}
+.span {
+    color: #ff9900;
+}
+.nav-mary {
+    margin-left: 50px;
+}
+.hire-me{
+    padding: 15px 35px;
+    background-color: #FD6E0A;
+    border:0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
