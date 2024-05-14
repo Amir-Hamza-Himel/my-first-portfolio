@@ -3,74 +3,87 @@ nav {
     justify-content: space-between;
     margin: 0 150px;
 }
-nav ul { 
+
+nav ul {
     display: flex;
     align-items: center;
-    margin-right:80px;
+    margin-right: 80px;
 
 }
-ul > li {
-margin-left: 50px;
+
+ul>li {
+    margin-left: 50px;
 
     list-style-type: none;
 
 
 }
+
 .span {
     color: #ff9900;
 }
+
 .nav-mary {
     margin-left: 50px;
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-.hire-me{
+
+.hire-me {
     padding: 15px 35px;
     background-color: #FD6E0A;
-    border:0;
+    border: 0;
     border-radius: 5px;
     color: white;
     font-size: 20px;
     font-weight: 700;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header style  */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     align-items: center;
     margin: 30px 30px 0px 250px;
     display: flex;
     justify-content: space-between;
 }
+
 .banner .profile-pic {
     width: 500px;
-    
+
 }
-.bann-hi{
+
+.bann-hi {
     size: 55px;
     margin-bottom: 0px;
     color: #474747;
 }
-.bann-hardy{
+
+.bann-hardy {
     size: 95px;
     width: 800px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500;
 }
+
 /* about section  */
-.about{
+.about {
     padding: 130px;
     margin: 150px auto;
     border-radius: 10px;
@@ -78,6 +91,7 @@ nav a {
     max-width: 1140px;
 
 }
+
 .section-tittle {
     text-align: center;
     font-size: 35px;
@@ -85,42 +99,76 @@ nav a {
     color: #181818;
     /* margin-bottom: 30px; */
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 
 }
+
 /* about info */
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
 
 /* what i do section  */
-#what-i-do-des{
+#what-i-do-des {
     padding: 30px 80px;
 
-    
+
 }
-.what-i-do-section{
+
+.what-i-do-section {
     padding: 0px 130px;
     margin: 150px auto;
     border-radius: 10px;
-    /* background-color: #FFF8F3; */
     max-width: 1140px;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
-    
-}
-.skills{
-    padding:30px;
     gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+    background: #fff;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+
+main section {
+    margin-top: 130px;
+}
+
+/* resume section */
+
+.resume-section {
+    padding: 0px 130px;
+    margin: 150px auto;
+    border-radius: 10px;
+    max-width: 1140px;
+}
+
+.resume-tittle {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
 }
