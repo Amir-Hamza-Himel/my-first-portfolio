@@ -38,6 +38,7 @@ ul>li {
     color: white;
     font-size: 20px;
     font-weight: 700;
+    
 }
 
 nav a {
@@ -48,9 +49,9 @@ nav a {
 /* header style  */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url(/images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -67,17 +68,19 @@ nav a {
 
 .bann-hi {
     size: 55px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: #474747;
 }
 
 .bann-hardy {
     size: 95px;
     width: 800px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
-
+.bann-para{
+    
+}
 .banner-content {
     max-width: 500;
 }
